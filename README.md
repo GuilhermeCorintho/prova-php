@@ -10,18 +10,19 @@
 - Node.js v10.16.0
 - Php 7.2.24
 - Laravel 3.2
-- MySQL 5.7 (our-mysql-container)
+- MySQL 5.7
 
 ## Estrutura do projeto
 
 ```
     ├── client                              # Código Frontend (React.js)
     ├── server                              # Código Backend (Php e Laravel)
-    ├── arrays.php                          # Exercício desafio php 1)
-    ├── object-oriented.php                 # Exercício desafio php 2)
-    ├── programming-logic.php               # Exercício desafio php 3)
-    ├── recursive-function.php              # Exercício desafio php 4)
+    ├── arrays.php                          # Exercício/desafio php - Arrays
+    ├── object-oriented.php                 # Exercício/desafio php - Orientação a objeto
+    ├── programming-logic.php               # Exercício/desafio php - Lógica de programação
     ├── prova-php.postman_collection.json   # Coleção dos endpoints da API exportada do Postman
+    ├── README.md                           # Arquivo markdown com o texto aqui descrito
+    ├── recursive-function.php              # Exercício/desafio php - Função recursiva
     └── ...
 ```
 
