@@ -48,7 +48,7 @@ O servidor ser iniciado no http://localhost:8000/ ou no endereço e porta config
 1 Navegue at o diretório client/app;  
 2 Execute o comando `npm install`;  
 3 Execute o comando `npm start`;  
-A aplicaço ser iniciada no endereço http://localhost:3000/ ou no endereço e porta configurados;  
+A aplicaço será iniciada no endereço http://localhost:3000/ ou no endereço e porta configurados;  
 
 
 ## Autor
