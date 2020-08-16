@@ -2,6 +2,10 @@
 <?php
 
 /**
+ * Exercício de função recursiva
+ */
+
+/**
  * Return the integer smallest divisible number of the given three numbers
  */
 function getSmallestDivisible($smallest = 1, $number1 = 2, $number2 = 3, $number3 = 10) {

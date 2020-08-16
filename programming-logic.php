@@ -1,6 +1,10 @@
 <?php
 
 /**
+ * Exercício de lógica de programação
+ */
+
+/**
  * Return the sum of all numbers that are multiple of 3 or 5 and lower than 1000
  */
 function main () {

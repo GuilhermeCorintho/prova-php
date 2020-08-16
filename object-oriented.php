@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Exercício de orientação a objetos
+ */
 class Item {
     private $property1;
     private $property2;

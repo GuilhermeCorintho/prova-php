@@ -1,6 +1,10 @@
 <?php
 
 /**
+ * Exercício de arrays
+ */
+
+/**
  * Echo some states from Brazil on this example format:
  * Eg: SP - São Paulo
  */
