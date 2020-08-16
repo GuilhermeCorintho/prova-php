@@ -28,7 +28,16 @@
 
 ## Start da API:
 1 Navegue ate o diretório server/api;  
-2 Configure as variáveis de conexão ao banco MySQL em que deseja persistir os dados no arquivo .env;  
+3 Copie o arquivo `.env.staging` para um arquivo `.env`, onde ficará as variáveis de ambiente.  
+2 Substitua as variáveis de conexão ao banco MySQL em que deseja persistir os dados no arquivo `.env` Ex:  
+
+    DB_CONNECTION=mysql  
+    DB_HOST=127.0.0.1  
+    DB_PORT=3306  
+    DB_DATABASE=exam  
+    DB_USERNAME=root  
+    DB_PASSWORD=root  
+    
 3 Execute o comando `php artisan migrate` para geração das tabelas;  
 4 Execute o comando `php artisan serve`;  
 5 O servidor ser iniciado no http://localhost:8000/ ou na porta configurada;
