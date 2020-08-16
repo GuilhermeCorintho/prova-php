@@ -24,6 +24,4 @@
     Guilherme Corintho Pereira Araujo
     guilhermecorintho@gmail.com
     
-![https://photos.app.goo.gl/wQRodGQ64ppo17hN8](https://bit.ly/2Wskacd) 
-[![](https://bit.ly/345oIrt)](https://photos.app.goo.gl/jvEt5w1Gku3CD1Xp7 "李健首张专辑《似水流年》封面")
-
+![image](https://drive.google.com/uc?export=view&id=1By1vd3I5HTT94ZRxNBUSW05MqkW_iUgv)  
