@@ -1,0 +1,22 @@
+.Header {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header-content {
+  margin-top: 10rem;
+}
+
+
+.Title {
+  font-family: RobotoLight;
+  font-size: 5rem;
+}
+
+.Sub-title {
+  font-family: RobotoLight;
+  font-size: 2.5rem;
+  display: block;
+}
+

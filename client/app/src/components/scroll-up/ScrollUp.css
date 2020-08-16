@@ -1,0 +1,8 @@
+.ScrollUp {
+  background-image: url(../../assets/icons/topo-pag.svg);
+  background-repeat: no-repeat;
+  float: right;
+  min-height: 50px;
+  min-width: 50px;
+  cursor: pointer;
+}
