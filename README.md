@@ -11,6 +11,7 @@
 - Php 7.2.24
 - Laravel 3.2
 - MySQL 5.7
+- Composer 1.10.10
 
 ## Estrutura do projeto
 
@@ -28,16 +29,26 @@
 
 ## Start da API:
 1 Navegue ate o diretório server/api;  
-2 Configure as variáveis de conexão ao banco MySQL em que deseja persistir os dados no arquivo .env;  
-3 Execute o comando `php artisan migrate` para geração das tabelas;  
-4 Execute o comando `php artisan serve`;  
-5 O servidor ser iniciado no http://localhost:8000/ ou na porta configurada;
+2 Copie o arquivo `.env.staging` para um arquivo `.env`, onde ficará as variáveis de ambiente.  
+3 Substitua as variáveis de conexão ao banco MySQL em que deseja persistir os dados no arquivo `.env` Ex:  
+
+    DB_CONNECTION=mysql  
+    DB_HOST=127.0.0.1  
+    DB_PORT=3306  
+    DB_DATABASE=exam  
+    DB_USERNAME=root  
+    DB_PASSWORD=root  
+    
+4 Execute o comando `composer install` para instalação das dependências;      
+5 Execute o comando `php artisan migrate` para geração das tabelas;  
+6 Execute o comando `php artisan serve`;  
+O servidor ser iniciado no http://localhost:8000/ ou no endereço e porta configurados;  
 
 ## Start da Aplicação frontend:
 1 Navegue at o diretório client/app;  
 2 Execute o comando `npm install`;  
 3 Execute o comando `npm start`;  
-4 A aplicação ser iniciada no endereço http://localhost:3000/ ou na porta configurada;  
+A aplicação será iniciada no endereço http://localhost:3000/ ou no endereço e porta configurados;  
 
 ## Pontos de melhoria
 - Validação e máscara em inputs;
