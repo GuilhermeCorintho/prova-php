@@ -37,8 +37,13 @@
 1 Navegue at o diretório client/app;  
 2 Execute o comando `npm install`;  
 3 Execute o comando `npm start`;  
-4 A aplicaço ser iniciada no endereço http://localhost:3000/ ou na porta configurada;  
+4 A aplicação ser iniciada no endereço http://localhost:3000/ ou na porta configurada;  
 
+## Pontos de melhoria
+- Validação e máscara em inputs;
+- Mensagens de sucesso/erro ao cadastrar;
+- Variáveis de ambiente;
+- Apresentação mobile;
 
 ## Autor
 
