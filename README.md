@@ -6,6 +6,25 @@
     Utiliza React.js no frontend e Php com Laravel no Backend. 
 ```
 
+## Tecnologias utilizadas
+- Node.js v10.16.0
+- Php 7.2.24
+- Laravel 3.2
+- MySQL 5.7 (our-mysql-container)
+
+## Start da API:
+1 Navegue ate o diretório server/api;  
+2 Configure as variáveis de conexão ao banco MySQL em que deseja persistir os dados no arquivo .env;  
+3 Execute o comando `php artisan migrate` para geração das tabelas;  
+4 Execute o comando `php artisan serve`;  
+5 O servidor ser iniciado no http://localhost:8000/ ou na porta configurada;
+
+## Start da Aplicaço frontend:
+1 Navegue at o diretório client/app;
+2 Execute o comando `npm install`;
+3 Execute o comando `npm start`;
+4 A aplicaço ser iniciada no endereço http://localhost:3000/ ou na porta configurada;
+
 ## Estrutura do projeto
 
 ```
