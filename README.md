@@ -33,7 +33,7 @@
 4 Execute o comando `php artisan serve`;  
 5 O servidor ser iniciado no http://localhost:8000/ ou na porta configurada;
 
-## Start da Aplicaço frontend:
+## Start da Aplicação frontend:
 1 Navegue at o diretório client/app;  
 2 Execute o comando `npm install`;  
 3 Execute o comando `npm start`;  
