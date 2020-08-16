@@ -11,6 +11,7 @@
 - Php 7.2.24
 - Laravel 3.2
 - MySQL 5.7
+- Composer 1.10.10
 
 ## Estrutura do projeto
 
