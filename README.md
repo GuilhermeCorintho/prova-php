@@ -42,13 +42,13 @@
 4 Execute o comando `composer install` para instalação das dependências;      
 5 Execute o comando `php artisan migrate` para geração das tabelas;  
 6 Execute o comando `php artisan serve`;  
-O servidor ser iniciado no http://localhost:8000/ ou na porta configurada;
+O servidor ser iniciado no http://localhost:8000/ ou no endereço e porta configurados;  
 
 ## Start da Aplicaço frontend:
 1 Navegue at o diretório client/app;  
 2 Execute o comando `npm install`;  
 3 Execute o comando `npm start`;  
-A aplicaço ser iniciada no endereço http://localhost:3000/ ou na porta configurada;  
+A aplicaço ser iniciada no endereço http://localhost:3000/ ou no endereço e porta configurados;  
 
 
 ## Autor
